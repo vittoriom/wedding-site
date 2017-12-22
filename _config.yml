@@ -7,8 +7,8 @@ description: |
 owner: Mark Cerqueira
 first_published: 2017
 email: mark@mark.gg
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+baseurl: "/wedding-site" # the subpath of your site, e.g. /blog
+url: "www.mark.gg" # the base hostname & protocol for your site
 
 social:
   github: https://github.com/markcerqueira/wedding-site
