@@ -1,0 +1,17 @@
+# Site settings
+title: "Tina + Mark"
+description: |
+    San Ramon, California
+
+    November 11, 2018
+owner: Mark Cerqueira
+first_published: 2017
+email: mark@mark.gg
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+
+social:
+  github: https://github.com/markcerqueira/wedding-site
+
+# Build settings
+markdown: kramdown
