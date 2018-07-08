@@ -1,17 +1,17 @@
 # Site settings
-title: "Tina + Mark"
+title: "Sabrina + Vittorio"
 description: |
-    San Ramon, California
+    Villa Claudia, Teano
 
-    November 11, 2018
-owner: Mark Cerqueira
-first_published: 2017
-email: mark@mark.gg
+    28 Maggio 2019
+owner: Vittorio Monaco
+first_published: 2018
+email: vittorio.monaco1@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "www.tinaandmark.com" # the base hostname & protocol for your site
+url: "www.sabrinaevittoriosposi.it" # the base hostname & protocol for your site
 
 social:
-  github: https://github.com/markcerqueira/wedding-site
+  github: https://github.com/vittoriom/wedding-site
 
 # Build settings
 markdown: kramdown
