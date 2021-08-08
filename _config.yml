@@ -15,6 +15,7 @@ url: "https://huserben.github.io/weddingpage/" # the base hostname & protocol fo
 
 social:
   github: https://github.com/huserben/weddingpage
+  email: benj.huser@gmail.com
 
 # Build settings
 markdown: kramdown
