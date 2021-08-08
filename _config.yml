@@ -8,7 +8,7 @@ owner: Benjamin Huser
 first_published: 2021
 email: benj.huser@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "www.sabrinaevittoriosposi.it" # the base hostname & protocol for your site
+url: "https://huserben.github.io/weddingpage/" # the base hostname & protocol for your site
 
 # Google analytics
 #google_analytics: "UA-40721189-2"
