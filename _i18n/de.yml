@@ -1,0 +1,12 @@
+global:
+  german: 🇩🇪 Deutsch
+  english: 🇬🇧 English
+  spanish: 🇩🇴 Español
+pages:
+  nav:
+    home: Start
+    details: Details
+    couple: Das Paar
+    ceremony: Trauung
+    reception: Apero
+    dinner: Essen

@@ -5,3 +5,5 @@ ruby '2.5.5'
 
 # https://github.com/jekyll/jekyll
 gem 'jekyll'
+
+gem 'jekyll-multiple-languages-plugin'

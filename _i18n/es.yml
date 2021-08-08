@@ -1,0 +1,12 @@
+global:
+  german: 🇩🇪 Deutsch
+  english: 🇬🇧 English
+  spanish: 🇩🇴 Español
+pages:
+  nav:
+    home: El Home
+    details: Los Detailos
+    couple: El Couple
+    ceremony: La Ceremonia
+    reception: La Reception
+    dinner: Comida

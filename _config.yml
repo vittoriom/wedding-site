@@ -10,6 +10,8 @@ email: benj.huser@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://huserben.github.io/weddingpage/" # the base hostname & protocol for your site
 
+languages: ["de", "en", "es"]
+
 # Google analytics
 #google_analytics: "UA-40721189-2"
 
@@ -19,3 +21,6 @@ social:
 
 # Build settings
 markdown: kramdown
+
+plugins:
+  - jekyll-multiple-languages-plugin

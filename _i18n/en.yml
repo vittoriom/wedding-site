@@ -1,0 +1,12 @@
+global:
+  german: 🇩🇪 Deutsch
+  english: 🇬🇧 English
+  spanish: 🇩🇴 Español
+pages:
+  nav:
+    home: Home
+    details: Details
+    couple: The Couple
+    ceremony: Ceremony
+    reception: Reception
+    dinner: Dinner

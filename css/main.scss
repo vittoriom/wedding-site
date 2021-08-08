@@ -1416,6 +1416,13 @@ $baseurl: '../images';
 			}
 		}
 
+		#languageselection {
+			align-content: center;
+			> p {
+				text-align: center;
+			}
+		}
+
 		nav {
 			height: inherit;
 			line-height: inherit;
