@@ -1,20 +1,20 @@
 # Site settings
-title: "Sabrina + Vittorio"
+title: "Chantal + Benjamin"
 description: |
-    Villa Claudia, Teano
+    Villa Boveri & Grand Casino, Baden
 
-    28 Maggio 2019
-owner: Vittorio Monaco
-first_published: 2018
-email: vittorio.monaco1@gmail.com
+    05 Juli 2022
+owner: Benjamin Huser
+first_published: 2021
+email: benj.huser@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "www.sabrinaevittoriosposi.it" # the base hostname & protocol for your site
 
 # Google analytics
-google_analytics: "UA-40721189-2"
+#google_analytics: "UA-40721189-2"
 
 social:
-  github: https://github.com/vittoriom/wedding-site
+  github: https://github.com/huserben/weddingpage
 
 # Build settings
 markdown: kramdown
