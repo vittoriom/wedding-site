@@ -1866,3 +1866,72 @@ $baseurl: '../images';
   .scrolloff {
     pointer-events: none;
   }
+
+/* ==========================================================================
+RSVP form
+========================================================================== */
+.rsvp {
+	padding-bottom: 140px;
+	.rsvp-form {
+	  .rsvp-btn {
+		padding: 15px 0;
+		border-radius: 3px;
+		width: 100%;
+		font-size: 13px;
+	  }
+	  .form-input-group {
+		width: 100%;
+		height: 55px;
+		margin: 0 auto 10px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		border: solid 1px #E6E9EA;
+		text-align: left;
+		position: relative;
+  
+		i {
+		  color: #e8ca6f;
+		  font-size: 14px;
+		}
+		i:after {
+		  content: "";
+		  height: 30px;
+		  width: 1px;
+		  border-right: solid 1px #E6E9EA;
+		  position: absolute;
+		  top: 50%;
+		  left: 30px;
+		  transform: translateY(-50%);
+		}
+		i.fa-user, i.fa-users, i.fa-envelope, .fa-key {
+		  font-size: 14px;
+		  position: absolute;
+		  top: 50%;
+		  transform: translateY(-50%);
+		  margin-left: 20px;
+		}
+		input {
+		  padding-left: 68px;
+		  width: 100%;
+		  height: 100%;
+		  -moz-border-radius: 6px;
+		  -webkit-border-radius: 6px;
+		  border-radius: 6px;
+		  border: none;
+		}
+		input::-webkit-input-placeholder {
+		  color: #BCC1C3;
+		}
+		input:-moz-placeholder {
+		  color: #BCC1C3;
+		}
+		input::-moz-placeholder {
+		  color: #BCC1C3;
+		}
+		input:-ms-input-placeholder {
+		  color: #BCC1C3;
+		}
+	  }
+	}
+  }
