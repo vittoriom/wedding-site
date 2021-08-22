@@ -7,7 +7,7 @@ layout: landing
     <h2>{{ site.title }}</h2>
     <p>{{ site.description | markdownify }}</p>
   </div>
-  <a href="#intro" class="more scrolly">Details</a>
+  <a href="#details" class="more scrolly">{% t pages.index.details %}</a>
 </section>
 
 <section id="details" class="wrapper style1 special">
@@ -22,16 +22,8 @@ layout: landing
   {% include sections/ceremony.html %}
 </section>
 
-<section id="reception" class="wrapper alt style2">
-  {% include sections/reception.html %}
-</section>
-
-<section id="dinner" class="wrapper alt style2">
-  {% include sections/dinner.html %}
-</section>
-
-<section id="info" class="wrapper alt style2">
-  {% include sections/info.html %}
+<section id="festivities" class="wrapper alt style2">
+  {% include sections/festivities.html %}
 </section>
 
 <section id="gifts" class="wrapper alt style2">

@@ -8,8 +8,37 @@ pages:
     details: Details
     couple: Das Paar
     ceremony: Trauung
-    reception: Apero
-    dinner: Essen
+    festivities: Fest
     rsvp: RSVP
     gifts: Geschenke
-    info: Informationen
+  index:
+    details: Details
+  details:
+    title: Wir feiern unsere Hochzeit
+    date: 25. Juni 2022
+    ceremony_info: "Trauung"
+    apero_info: "Apero"
+    dinner_info: "Nachtessen"
+  rsvp:
+    title: Anmeldung
+    submit: Anmelden
+    email: Email Adresse
+    name: Dein Name
+    total_count: Total Gäste (inkl. Partner, Kinder)
+    invite_code: Anmelde Code (von der Einladung)
+  ceremony:
+    detail_text: |
+      Die Trauung findet um 12:30 in der Villa Boveri im Gartensaal statt. Direkt neben der Villa Boveri befindet sich das Parkhaus Ländli für die Leute die mit dem Auto anreisen. Vom Bahnhof ist die Villa in 10 Minuten zu Fuss zu erreichen.
+      
+      Ein paar andere Infos falls nötig?      
+    rules: |
+      Bitte beachtet dass es nicht erlaubt ist auf dem Gelände der Villa Boveri Ballöne steigen zu lassen oder mit Reis (oder anderem) zu werfen.
+  festivities:
+    intro_text: Wir feiern im Grand Casino Baden! Der Apero findet im Club Joy des Casinos statt und das Nachtessen im Saal oberhalb des Casino Restaurants.
+    detail_text: |
+      Parkmöglichkeiten
+      Gratis Casino Eintritt?
+      Fotos?
+  gifts:
+    title: Hochzeitsgeschenke
+    intro_text: Geschenke Blabla brauchen nichts bla blub GEEELD

@@ -1,37 +1,44 @@
-<div class="inner">
-    <header class="major">
-        <h2>RSVP</h2>
+<section id="banner">
+    <div class="inner">
+        <header class="major">
+            <h2>{% t pages.rsvp.title %}</h2>
+        </header>
+    </div>
 
-        <!-- Check https://blog.rampatra.com/wedding-website?ref=simplefill for more details        
+
+
+    <!-- Check https://blog.rampatra.com/wedding-website?ref=simplefill for more details        
         Current Invite Code: 271117
         -->
-
+    <div class="content">
         <form id="rsvp-form" class="rsvp-form" action="" method="POST">
-            <div class="row">
-                <div class="col-md-6 col-sm-6">
+            <div class="col">
+                <div>
                     <div class="form-input-group">
-                        <i class="fa fa-envelope"></i>
-                        <input type="email" name="email" class="" placeholder="Your email" required>
+                        <i class="fa fa-envelope">{% t pages.rsvp.email %}:</i>
+                        <input type="email" name="email" class="" placeholder="{% t pages.rsvp.email %}" required>
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-6">
                     <div class="form-input-group">
-                        <i class="fa fa-user"></i>
-                        <input name="name" class="" placeholder="Your name" required>
+                        <i class="fa fa-user">{% t pages.rsvp.name %}:</i>
+                        <input type="text" name="name" class="" placeholder="{% t pages.rsvp.name %}" required>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-6 col-sm-6">
                     <div class="form-input-group">
-                        <i class="fa fa-users"></i>
-                        <input type="number" name="extras" class="" min="0" max="4" placeholder="Husband/Wife or kids" required>
+                        <i class="fa fa-users">{% t pages.rsvp.total_count %}:</i>
+                        <input type="number" name="extras" class="" min="0" max="4" placeholder="{% t pages.rsvp.total_count %}"
+                            required>
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-6">
                     <div class="form-input-group">
-                        <i class="fa fa-key"></i>
-                        <input type="number" name="invite_code" id="invite_code" class="" min="0" placeholder="Invite code" required>
+                        <i class="fa fa-key">{% t pages.rsvp.invite_code %}:</i>
+                        <input type="number" name="invite_code" id="invite_code" class="" min="0"
+                            placeholder="{% t pages.rsvp.invite_code %}" required>
                     </div>
                 </div>
             </div>
@@ -39,9 +46,8 @@
                 <div class="col-md-12" id="alert-wrapper"></div>
             </div>
             <button class="btn-fill rsvp-btn">
-                Yes, that's me!
+                {% t pages.rsvp.submit %}
             </button>
         </form>
-        
-    </header>
-</div>
+    </div>
+</section>
