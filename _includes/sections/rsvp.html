@@ -6,48 +6,26 @@
     </div>
 
 
+    <section class="spotlight">
+        <div class="content">
+            <p>{% t pages.rsvp.description %}</p>
 
-    <!-- Check https://blog.rampatra.com/wedding-website?ref=simplefill for more details        
-        Current Invite Code: 271117
-        -->
-    <div class="content">
-        <form id="rsvp-form" class="rsvp-form" action="" method="POST">
-            <div class="col">
-                <div>
-                    <div class="form-input-group">
-                        <i class="fa fa-envelope">{% t pages.rsvp.email %}:</i>
-                        <input type="email" name="email" class="" placeholder="{% t pages.rsvp.email %}" required>
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                    <div class="form-input-group">
-                        <i class="fa fa-user">{% t pages.rsvp.name %}:</i>
-                        <input type="text" name="name" class="" placeholder="{% t pages.rsvp.name %}" required>
-                    </div>
-                </div>
+            <ul>
+                <li>{% t pages.rsvp.registration %}</li>
+                <li>{% t pages.rsvp.guest_count %}</li>
+                <li>{% t pages.rsvp.food %}</li>
+            </ul>
+
+            <p>
+                <a href="mailto:benj.huser@gmail.cop">{% t pages.rsvp.email %} benj.huser@gmail.com</a>
+            </p>
+            <div>
+                <p>{% t pages.rsvp.note %}</p>
             </div>
-            <div class="row">
-                <div class="col-md-6 col-sm-6">
-                    <div class="form-input-group">
-                        <i class="fa fa-users">{% t pages.rsvp.total_count %}:</i>
-                        <input type="number" name="extras" class="" min="0" max="4" placeholder="{% t pages.rsvp.total_count %}"
-                            required>
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                    <div class="form-input-group">
-                        <i class="fa fa-key">{% t pages.rsvp.invite_code %}:</i>
-                        <input type="number" name="invite_code" id="invite_code" class="" min="0"
-                            placeholder="{% t pages.rsvp.invite_code %}" required>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12" id="alert-wrapper"></div>
-            </div>
-            <button class="btn-fill rsvp-btn">
-                {% t pages.rsvp.submit %}
-            </button>
-        </form>
-    </div>
+        </div>
+        <div class="image">
+            <a href="mailto:benj.huser@gmail.com" target="blank_"><img src="images/rsvp.png" alt="" /></a>
+        </div>
+    </section>
+
 </section>

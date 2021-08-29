@@ -21,11 +21,12 @@ pages:
     dinner_info: "Nachtessen"
   rsvp:
     title: Anmeldung
-    submit: Anmelden
-    email: Email Adresse
-    name: Dein Name
-    total_count: Total Gäste (inkl. Partner, Kinder)
-    invite_code: Anmelde Code (von der Einladung)
+    description: Wir bitten dich uns via Email die folgenden Informationen mit zuteilen
+    registration: Zu- oder Absage
+    guest_count: Wieviele Personen insgesamt teilnehmen
+    food: Spezielle Essenswünsche (Vegetarisch/Vegan) und Allergien
+    email: Sende ein Mail an
+    note: Auf deiner Einladung findest du mehr Informationen zu welchen Teilen der Feier du eingeladen bist.
   ceremony:
     detail_text: |
       Die Trauung findet um 12:30 in der Villa Boveri im Gartensaal statt. Direkt neben der Villa Boveri befindet sich das Parkhaus Ländli für die Leute die mit dem Auto anreisen. Vom Bahnhof ist die Villa in 10 Minuten zu Fuss zu erreichen.
@@ -41,4 +42,4 @@ pages:
       Fotos?
   gifts:
     title: Hochzeitsgeschenke
-    intro_text: Geschenke Blabla brauchen nichts bla blub GEEELD
+    intro_text: Geschenke Blabla GEEELD
