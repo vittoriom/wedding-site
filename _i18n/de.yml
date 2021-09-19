@@ -5,18 +5,14 @@ global:
 pages:
   nav:
     home: Start
-    details: Details
     couple: Das Paar
-    ceremony: Trauung
-    festivities: Fest
-    rsvp: RSVP
-    gifts: Geschenke
+    festivities: Apéro & Feier
   index:
     details: Details
   details:
     title: Wir feiern unsere Hochzeit
     date: 25. Juni 2022
-    ceremony_info: "Trauung"
+    ceremony_info: Trauung
     apero_info: "Apero"
     dinner_info: "Nachtessen"
   rsvp:
@@ -24,7 +20,7 @@ pages:
     description: Wir bitten dich uns via Email die folgenden Informationen mit zuteilen
     registration: Zu- oder Absage
     guest_count: Wieviele Personen insgesamt teilnehmen
-    food: Spezielle Essenswünsche (Vegetarisch/Vegan) und Allergien
+    food: "Bei Einladung zum Nachtessen: Spezielle Essenswünsche (Vegetarisch/Vegan) und Allergien"
     email: Sende ein Mail an
     note: Auf deiner Einladung findest du mehr Informationen zu welchen Teilen der Feier du eingeladen bist.
   ceremony:
@@ -33,13 +29,23 @@ pages:
       
       Ein paar andere Infos falls nötig?      
     rules: |
-      Bitte beachtet dass es nicht erlaubt ist auf dem Gelände der Villa Boveri Ballöne steigen zu lassen oder mit Reis (oder anderem) zu werfen.
+      Bitte beachtet die Regeln der Villa Boveri, zum Beispiel dass es nicht erlaubt ist auf dem Gelände der Villa Boveri Ballöne steigen zu lassen oder mit Reis (oder anderem) zu werfen.
   festivities:
     intro_text: Wir feiern im Grand Casino Baden! Der Apero findet im Club Joy des Casinos statt und das Nachtessen im Saal oberhalb des Casino Restaurants.
-    detail_text: |
-      Parkmöglichkeiten
-      Gratis Casino Eintritt?
-      Fotos?
+    parking: Es stehen (kostenpflichtige) Parkplätze im Grand Casino Parkhaus zur Verfügung.
+    on_foot: Zu Fuss ist das Grand Casino in weniger als 5 Minuten vom Bahnhof zu erreichen. Von der Villa Boveri ist man in etwa 15 Minuten beim Grand Casino.
+  good_to_know:
+    title: Gut zu Wissen
+    intro_text: Zu beachten bla bla
+    photos: Fotographin for ort für Trauung und Apero bla bla
+    congratulations: Buch für Gratuliationen am Apero bla bla
   gifts:
-    title: Hochzeitsgeschenke
-    intro_text: Geschenke Blabla GEEELD
+    title: Geschenke
+    intro_text: | 
+      Falls Ihr uns etwas gutes tun möchtet wären wir froh um etwas "Feriengeld" für unsere Hochzeitsreise in die USA.
+    explanation: "Mit eurer Unterstützung können wir uns ein kühles Bier, ein gutes Nachtessen oder eine schöne Übernachtung leisten."
+    wire_transfer: "Am einfachsten ist dies für uns via Banküberweisung auf folgendes Konto"
+    account_details: "Benjamin Huser, Heimstrasse 10, 8953 Dietikon"
+    iban: "IBAN: CH25 0900 0000 1554 2415 4"
+
+
